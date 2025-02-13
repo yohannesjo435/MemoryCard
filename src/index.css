@@ -5,3 +5,10 @@ body {
   margin: 0;
   padding: 0;
 }
+h4 {
+  margin: 20px 10%;
+}
+.btn1 {
+  margin: 10px 10%;
+  margin-bottom: 20px;
+}

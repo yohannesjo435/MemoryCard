@@ -2,9 +2,8 @@ header {
   width: 80%;
   margin: 0 auto;
   padding: 20px 0;
-  outline: auto;
   display: flex;
-  font-size: 1rem;
+  font-size: 1.5rem;
   justify-content: space-between;font-family: 'Courier New', Courier, monospace;
 }
 .scoresWrapper {

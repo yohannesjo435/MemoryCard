@@ -1,6 +1,7 @@
 import React from 'react'
 
-export default function Header() {
+export default function Header({score, bestScore}) {
+  console.log("Higest best score: ", bestScore)
   return (
     <header>
       <div className="logo">
@@ -9,11 +10,11 @@ export default function Header() {
 
       <div className='scoresWrapper'>
         <div className='score'>
-          Score: 0
+          {score}
         </div>
 
         <div className="bestScore">
-          Best Score: 0
+          {bestScore}
         </div>
       </div>
     </header>

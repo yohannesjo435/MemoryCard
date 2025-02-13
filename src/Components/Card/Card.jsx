@@ -1,11 +1,13 @@
 import React from 'react'
 
-export default function Card({cardImage}) {
+export default function Card({cardImage, handleClick, title}) {
   return (
-    <div className='card'>
+    <div className='card' onClick={handleClick}>
       <img src={cardImage}/>
 
-      <div className='cardName'>Naruto Uzumaki</div>
+      <div className='cardName'>{title}
+        
+      </div>
     </div>
   )
 }
