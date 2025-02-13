@@ -1,7 +1,7 @@
 import React from 'react'
 
 export default function Header({score, bestScore}) {
-  console.log("Higest best score: ", bestScore)
+  // console.log("Higest best score: ", bestScore)
   return (
     <header>
       <div className="logo">
