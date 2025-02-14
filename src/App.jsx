@@ -4,8 +4,6 @@ import "./Components/Header/Header.css"
 import Card from "./Components/Card/Card.jsx";
 import "./Components/Card/Card.css";
 import "./App.css";
-import "./assets/bootstrap.min.css";
-import Button from 'react-bootstrap/Button';
 import WinAlert from './Components/WinAlert.jsx'
 import { configs } from '@eslint/js';
 
@@ -14,7 +12,7 @@ function App() {
   const [listOfImage, setListOfImage] = useState({})
   const [shuffledImages, setShuffledImages] = useState({})
   const [clickedItems, setClickedItem] = useState([])
-  const [score, setScore] = useState(0)
+  const [score, setScore] = useState(7)
   const [bestScore, setBestScore] = useState(0)
   const [highestBestScore, setHighestBestScore] = useState(0)
   const [wonRound, setWonRound] = useState(false)
@@ -101,7 +99,7 @@ function App() {
         <h4>Get points by clicking on an image but don’t click on any more than once!</h4>
         {wonRound?<WinAlert handleRestart={restartTheGame}></WinAlert>: 
           <>          
-            <Button variant="dark" className='btn1' onClick={()=> restartTheGame()}>Restart</Button>
+            <button className='btn1' onClick={()=> restartTheGame()}>Restart</button>
             <div className='cardWrapper'>
               {Object.entries(shuffledImages).map(([key, image]) => (
                 <Card key={key} handleClick={() => handleClick(key)} cardImage={image}></Card>
