@@ -1,8 +1,20 @@
-# React + Vite
+# Memory Game(No fancy Ui)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and fun Memory Game built with React and Vite. The objective of the game is to click a card that never been clicked before.
 
-Currently, two official plugins are available:
+## Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+https://yohannesjo435.github.io/MemoryCard/
+
+## Technologies Used
+
+- React: A JavaScript library for building user interfaces.
+- Vite: A fast build tool that provides a great development experience.
+- CSS*: For styling the application.
+
+## Installation
+
+To get started with the Memory Game, follow these steps:
+
+1. Clone the repository:
+   git clone https://github.com/yohannesjo435/MemoryCard
