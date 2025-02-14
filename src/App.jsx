@@ -12,7 +12,7 @@ function App() {
   const [listOfImage, setListOfImage] = useState({})
   const [shuffledImages, setShuffledImages] = useState({})
   const [clickedItems, setClickedItem] = useState([])
-  const [score, setScore] = useState(7)
+  const [score, setScore] = useState(0)
   const [bestScore, setBestScore] = useState(0)
   const [highestBestScore, setHighestBestScore] = useState(0)
   const [wonRound, setWonRound] = useState(false)
